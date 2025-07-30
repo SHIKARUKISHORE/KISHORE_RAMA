@@ -1,0 +1,27 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.center-page {
+  display: flex;
+  flex-direction: column;    /* Stack items vertically */
+  justify-content: center;   /* Vertical center */
+  align-items: center;       /* Horizontal center */
+  height: 100vh;             /* Full screen height */
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+ul {
+  list-style: none;           /* Remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
