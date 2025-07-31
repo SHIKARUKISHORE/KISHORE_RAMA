@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Code') {
       steps {
-        git url: ', branch: 'main'
+        git url: https://github.com/SHIKARUKISHORE/KISHORE_RAMA.git', branch: 'main'
       }
     }
 
